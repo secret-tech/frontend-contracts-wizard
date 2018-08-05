@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Wizard from '../../wizard/Wizard';
+import Drafts from '../../drafts/Drafts';
 
 import * as routes from '../../../routes';
 
@@ -11,7 +12,8 @@ class AppWrapper extends Component {
     return (
       <Switch>
         <Route exact path={routes.WIZARD} component={Wizard}/>
-        <Redirect exact from="/" to={routes.WIZARD} />
+        <Route exact path={routes.DRAFTS} component={Drafts}/>
+        <Redirect exact from="/" to={routes.DRAFTS} />
       </Switch>
     );
   }
