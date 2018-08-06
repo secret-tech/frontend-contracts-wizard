@@ -27,7 +27,7 @@ export const changeStatus = createAction(CHANGE_STATUS);
 
 
 const initialState = fromJS({
-  index: 0,
+  index: 3,
   steps: [
     {
       key: 'token',
