@@ -32,7 +32,7 @@ Reserve.propTypes = {
   address: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   ticker: PropTypes.string.isRequired,
-  onRemove: PropTypes.func.isRequired
+  onClick: PropTypes.func.isRequired
 };
 
 export default Reserve;

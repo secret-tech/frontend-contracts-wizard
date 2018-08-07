@@ -11,7 +11,7 @@ const Calc = (props) => {
   return (
     <div className={s.calc}>
       {data.map((dat) => (
-        <div className={s.calcBlock}>
+        <div key={dat.label} className={s.calcBlock}>
           <div className={s.calcVal}>{dat.value}</div>
           <div className={s.calcLabel}>{dat.label}</div>
         </div>
