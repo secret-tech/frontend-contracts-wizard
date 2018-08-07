@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Intent, Button } from '@blueprintjs/core';
 
-import { changeStep, step, status } from '../../../redux/modules/wizard/steps';
-
 import Steps from '../Steps';
 import TokenSettings from '../TokenSettings';
 import CrowdsaleSettings from '../CrowdsaleSettings';

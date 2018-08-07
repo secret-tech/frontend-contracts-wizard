@@ -1,5 +1,5 @@
 import { List, Map } from 'immutable';
-import { createReducer, createAction } from '../../../utils/actions';
+import { createReducer } from '../../../utils/actions';
 
 const initialState = List([
   Map({
